@@ -17,8 +17,8 @@ export function get (url) {
     return axios.get(baseUrl + url, {
       params
     }).then(res => {
-      const { errno, data } = res.data
-      if (errno === ERR_OK) {
+      const { error, data } = res.data
+      if (error === ERR_OK) {
         return data
       }
     }).catch(err => {
