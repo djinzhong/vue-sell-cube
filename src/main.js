@@ -3,6 +3,8 @@ import './cube-ui'
 import App from './App.vue'
 import './components/global'
 
+import 'common/stylus/index.styl'
+
 Vue.config.productionTip = false
 
 new Vue({

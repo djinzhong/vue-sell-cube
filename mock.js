@@ -1,7 +1,7 @@
 const Mock = require('mockjs')
 module.exports = function () {
   return {
-    user: Mock.mock({
+    seller: Mock.mock({
       'record|10': [
         {
           'name|1': '@cname',
